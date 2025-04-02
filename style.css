@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Layout */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;  /* White background */
+    color: #333;  /* Dark text color for readability */
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth; /* Enables smooth scrolling when navigating */
+}
+
+/* Header and Navbar */
+header {
+    background-color: #003366; /* Dark blue background for a professional feel */
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;  /* Center the header title */
+}
+
+.navbar h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.navbar nav ul li {
+    margin: 0 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 5px 0;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: #ff9900; /* Highlight color on hover */
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 15%;
+    margin: 20px 0;
+    position: relative;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #003366; /* Dark blue background */
+    color: white;
+    height: 100vh;  /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* About Section Container */
+.container {
+    max-width: 900px; /* Maximum width for the container */
+    margin: 0 auto;  /* Centers the container */
+    padding: 0 20px; /* Adds some padding on the sides */
+}
+
+/* About Section */
+#about {
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5rem;
+    color: #003366;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Hover Effect for Containers */
+#about:hover, #donate:hover, #contact:hover {
+    background-color: #e0f7fa; /* Light blue background on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);  /* Adds shadow effect */
+    cursor: pointer;  /* Changes the cursor to indicate interactivity */
+}
+
+/* Donate Section */
+#donate {
+    background-color: #ffffff;  /* White background */
+    text-align: center;
+}
+
+.donate-btn {
+    display: inline-block;
+    width: 220px;
+    padding: 15px;
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+.donate-btn:hover {
+    background-color: #e68a00;
+    transform: scale(1.05);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #003366;
+    color: white;
+    font-size: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
